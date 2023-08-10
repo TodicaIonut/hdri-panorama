@@ -31,7 +31,7 @@ function preprocessSceneConfiguration(sceneConfiguration){
 
 function updateScene(oldSceneConfiguration,newSceneConfiguration){
 
-	console.debug("Update scene",oldSceneConfiguration,newSceneConfiguration);
+	console.debug("Update scene (old,new): ",oldSceneConfiguration,newSceneConfiguration);
 
 	// Exposure
 	renderer.toneMappingExposure = Math.pow(2,newSceneConfiguration["environment_exposure"]);
@@ -72,8 +72,6 @@ function initializeScene(){
 	// renderer
 	renderer = new THREE.WebGLRenderer();
 	renderer.outputEncoding = CONSTANTS.encoding.sRGB;
-
-	THREE_ACTIONS.updateSceneEnvironment("./media/tent.exr",scene,renderer);
 
 	// orbit controls
 	controls = new ORBIT_CONTROLS.OrbitControls(camera, renderer.domElement);
