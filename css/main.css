@@ -1,11 +1,9 @@
 /* Base CSS */
 
 :root{
-	--brand: #912CED;
 	--error: #FF0000;
 	--success: #00FF00;
 	--warning: #FFFF00;
-	--info: #FFFFFF;
 }
 
 body{
@@ -106,8 +104,6 @@ nav label{
 	position: absolute;
 	bottom: 10px;
 	right: 10px;
-	color:#ffffff60;
-	text-decoration: none;
 }
 
 .watermark-off{
