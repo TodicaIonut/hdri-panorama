@@ -16,7 +16,8 @@ export const toneMapping = {
 	"linear" : THREE.LinearToneMapping,
 	"filmic" : THREE.ACESFilmicToneMapping,
 	"reinhard" : THREE.ReinhardToneMapping,
-	"cineon" : THREE.CineonToneMapping
+	"cineon" : THREE.CineonToneMapping,
+	"agx" : THREE.AgXToneMapping
 }
 
 /**
