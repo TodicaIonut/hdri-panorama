@@ -4,6 +4,7 @@
 	--error: #FF0000;
 	--success: #00FF00;
 	--warning: #FFFF00;
+	--info: #FFFFFF;
 }
 
 body{
@@ -98,8 +99,6 @@ nav label{
 	display: none;
 }
 
-/* Watermark */
-
 .watermark{
 	position: absolute;
 	bottom: 10px;
@@ -112,10 +111,8 @@ nav label{
 
 .watermark-small{
 	display: block;
-	font-size: large;
 }
 
 .watermark-large{
 	display:block;
-	font-size: x-large;
 }
