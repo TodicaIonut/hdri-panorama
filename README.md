@@ -12,6 +12,7 @@ This view hdri panorama 360.
 | --- | --- | --- |
 |`environment_url`| Link to one or multiple equirectangular HDR panoramas in `hdr` or `exr` file format.|Semicolon-separated list of URLs ending in `.hdr` or `.exr`. |
 |`environment_name`| List of names for the environments. Required if more than one environment is used. |Semicolon-separated list of Strings.|
+|`fullscreen_enable`| Enables or disables the fullscreen icon in the top right corner. Requires `allow="fullscreen"` on the iframe tag. |`1` = enabled (default) `0` = disabled|
 
 
 ![image](https://user-images.githubusercontent.com/25839678/203621792-69773ce6-f530-4315-a8f4-00405af81277.png)
@@ -20,6 +21,7 @@ This view hdri panorama 360.
 | --- | --- | --- |
 |`environment_url`| Link către una sau mai multe panorame HDR echirectangulare în `hdr` sau `exr` tipul fisierului.|Lista de adrese URL separate prin punct și virgulă care se termină în `.hdr` sau `.exr`. |
 |`environment_name`| Lista de nume pentru medii. Necesar dacă se utilizează mai mult de un mediu. |Listă de șiruri separate prin punct și virgulă.|
+|`fullscreen_enable`| Activează sau dezactivează pictograma ecran complet din colțul din dreapta sus. Necesită `allow="fullscreen"` pe eticheta iframe. |`1` = activat (implicit) `0` = dezactivat|
 
 
 ![image](https://user-images.githubusercontent.com/25839678/201399035-e95a9f24-9b17-4877-998a-87d845d3efc5.png)
